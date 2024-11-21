@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/BookingOffer1CardView"
+    android:layout_width="@dimen/_120sdp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/_4sdp"
+    app:cardBackgroundColor="@color/editbox"
+    app:cardCornerRadius="@dimen/_20sdp"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10ssp"
+        android:layout_marginVertical="@dimen/_15sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/BookingOffer1Img"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:scaleType="centerCrop"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/spinnerimg"
+            tools:ignore="ContentDescription" />
+
+
+        <TextView
+            android:id="@+id/BookingOffer1BankName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="PayPal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp" />
+
+
+        <TextView
+            android:id="@+id/BookingOfferDiscount_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_7ssp"
+            android:text="1234"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp" />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:id="@+id/BookingOffer1CardView"-->
+    <!--    android:layout_width="@dimen/_140sdp"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_gravity="center"-->
+    <!--    android:layout_margin="@dimen/_4sdp"-->
+    <!--    app:cardBackgroundColor="@color/editbox"-->
+    <!--    app:cardCornerRadius="@dimen/_20sdp">-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="@dimen/_10sdp"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/BookingOffer1Img"-->
+    <!--            android:layout_width="@dimen/_50sdp"-->
+    <!--            android:layout_height="@dimen/_30sdp"-->
+    <!--            android:layout_marginTop="@dimen/_7sdp"-->
+    <!--            android:layout_marginStart="@dimen/_5sdp"-->
+    <!--            android:scaleType="fitXY"-->
+    <!--            android:src="@drawable/logo"-->
+    <!--            tools:ignore="ContentDescription" />-->
+
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/BookingOffer1BankName"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_marginTop="@dimen/_7sdp"-->
+    <!--            android:text="PayPal"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_11ssp" />-->
+
+
+    <!--        <RelativeLayout-->
+    <!--            android:id="@+id/BookingOffer1RelativeLayout"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="end"-->
+    <!--            android:layout_marginTop="@dimen/_7ssp"-->
+    <!--            android:background="@drawable/offer"-->
+    <!--            android:padding="@dimen/_3sdp">-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/BookingOfferDiscount_text"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_centerInParent="true"-->
+    <!--                android:text="45% OFF"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="@dimen/_11ssp"-->
+    <!--                android:textStyle="bold" />-->
+    <!--        </RelativeLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_marginTop="@dimen/_5sdp"-->
+    <!--            android:orientation="horizontal">-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="₹"-->
+    <!--                android:textColor="@color/black"-->
+    <!--                android:textSize="@dimen/_15ssp"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/BookingOffer1Amount"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginStart="@dimen/_3sdp"-->
+    <!--                android:text="1234"-->
+    <!--                android:textColor="@color/black"-->
+    <!--                android:textSize="@dimen/_15ssp"-->
+    <!--                android:textStyle="bold" />-->
+    <!--        </LinearLayout>-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/BookingOffer1Btn"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="@dimen/_7sdp"-->
+    <!--            android:backgroundTint="@color/blue"-->
+    <!--            android:text="Apply"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:textSize="@dimen/_11ssp" />-->
+    <!--    </LinearLayout>-->
+
+
+    <!--</androidx.cardview.widget.CardView>-->

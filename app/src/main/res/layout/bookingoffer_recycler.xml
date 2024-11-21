@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_2ssp"
+    android:layout_marginVertical="@dimen/_2sdp"
+    app:cardBackgroundColor="@color/editbox">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/BookingOfferCardView1"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentEnd="true"
+        app:cardBackgroundColor="@color/blue"
+        app:cardCornerRadius="@dimen/_20sdp">
+
+        <TextView
+            android:id="@+id/BookingOfferText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/_3sdp"
+            android:text="50%"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_11ssp" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/BookingOfferCardView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/yellow"
+            app:cardCornerRadius="@dimen/_10ssp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    tools:ignore="UselessParent">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10ssp"
+                        android:layout_marginVertical="@dimen/_10ssp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/BookingOfferImg"
+                            android:layout_width="@dimen/_70sdp"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_70sdp"
+                            android:src="@drawable/google"
+                            tools:ignore="ContentDescription" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/BookingOfferText2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginEnd="@dimen/_30sdp"
+                            android:gravity="end"
+                            android:text="you Get"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_11ssp" />
+
+                        <TextView
+                            android:id="@+id/BookingOfferText3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:text="Dolor Shop"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15ssp" />
+
+                        <TextView
+                            android:id="@+id/BookingOfferText4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:text="21 Coupons"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_11ssp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+    <!--<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_marginHorizontal="@dimen/_10ssp"-->
+    <!--    android:layout_marginVertical="@dimen/_4sdp"-->
+    <!--    app:cardBackgroundColor="@color/editbox">-->
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginHorizontal="@dimen/_10ssp"-->
+    <!--        android:layout_marginVertical="@dimen/_15ssp">-->
+
+    <!--        <de.hdodenhof.circleimageview.CircleImageView-->
+    <!--            android:id="@+id/BookingOfferImg"-->
+    <!--            android:layout_width="@dimen/_30sdp"-->
+    <!--            android:layout_height="@dimen/_30sdp"-->
+    <!--            android:src="@drawable/applogo" />-->
+    <!--        -->
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginHorizontal="@dimen/_7sdp"-->
+    <!--            android:layout_toStartOf="@id/BookingOfferViewAll"-->
+    <!--            android:layout_toEndOf="@id/BookingOfferImg"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/BookingOfferText1"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="Google Pay"-->
+    <!--                android:textColor="@color/black"-->
+    <!--                android:textSize="@dimen/_11ssp" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/BookingOfferText2"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="@dimen/_5sdp"-->
+    <!--                android:text="Get up to  ₹250 cashback"-->
+    <!--                android:textColor="@color/black"-->
+    <!--                android:textSize="@dimen/_12ssp"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/BookingOfferText3"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="@dimen/_3sdp"-->
+    <!--                android:text="Top-up bonanza"-->
+    <!--                android:textColor="@color/black"-->
+    <!--                android:textSize="@dimen/_11ssp" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/BookingOfferText4"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="Top-up bonanza"-->
+    <!--                android:textColor="@color/black"-->
+    <!--                android:textSize="@dimen/_11ssp" />-->
+    <!--        </LinearLayout>-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/BookingOfferViewAll"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_alignParentEnd="true"-->
+    <!--            android:layout_centerInParent="true"-->
+    <!--            android:src="@drawable/baseline_arrow_back_ios"-->
+    <!--            tools:ignore="ContentDescription" />-->
+
+    <!--    </RelativeLayout>-->
+    <!--</com.google.android.material.card.MaterialCardView>-->

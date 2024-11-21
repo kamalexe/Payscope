@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <string name="app_name" translatable="false">ペイスコープ</string>
+
+    <string name="my_language" translatable="false">私の言語</string>
+    <string name="received_from_john" translatable="false">ジョンから受け取った</string>
+    <string name="add_account" translatable="false">   アカウントを追加する</string>
+    <string name="f_n_b_c" translatable="false">F N B C</string>
+    <string name="transfer_money" translatable="false">送金</string>
+    <string name="password_n_change" translatable="false"> パスワード \n 変更</string>
+    <string name="recharge_bill_service" translatable="false"><![CDATA[リチャージ＆請求サービス]]></string>
+    <string name="transactions" translatable="false"> 取引</string>
+
+    <string name="general">一般的な</string>
+    <string name="account">アカウント</string>
+    <string name="coupons">クーポン</string>
+    <string name="delete_account">アカウントを削除する</string>
+    <string name="feedback">フィードバック</string>
+    <string name="report_a_bug">バグを報告</string>
+    <string name="send_feedback">フィードバックを送信する</string>
+    <string name="cash_back">キャッシュバック</string>
+    <string name="language">言語</string>
+    <string name="notifications">通知</string>
+    <string name="logout">ログアウト</string>
+    <string name="welcome">いらっしゃいませ</string>
+    <string name="william_huffman">ウィリアム・ハフマン</string>
+    <string name="person_management">人材管理</string>
+    <string name="transfer">移行</string>
+    <string name="scan">スキャン</string>
+    <string name="utilities">公共事業</string>
+    <string name="quick_loan">クイックローン</string>
+    <string name="statement">声明</string>
+    <string name="self_top_up">セルフチャージ</string>
+    <string name="locator">ロケータ</string>
+    <string name="contact_us">お問い合わせ</string>
+    <string name="refer">参照する</string>
+
+
+</resources>

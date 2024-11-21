@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText,VisualLintTextFieldSize"
+    tools:context=".Fragment.TransactionFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginHorizontal="@dimen/_10ssp"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:background="@drawable/btn">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/TransactionFrag_SearchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/TransactionFragMic"
+            app:iconifiedByDefault="false"
+            app:queryHint="Search by name,number or UPI ID"
+            app:searchHintIcon="@color/black" />
+
+        <ImageView
+            android:id="@+id/TransactionFragMic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+           android:layout_centerInParent="true"
+            android:layout_marginHorizontal="@dimen/_7sdp"
+            android:src="@drawable/baseline_mic_24"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10ssp"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/TransactionFrag_DownloadStatement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/blue"
+            app:cardCornerRadius="@dimen/_7ssp"
+            app:strokeColor="@color/blue"
+            app:strokeWidth="@dimen/_1sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingHorizontal="@dimen/_10ssp"
+                android:paddingVertical="@dimen/_7ssp"
+                android:text="Download Statement  "
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11sdp"
+                app:drawableEndCompat="@drawable/baseline_arrow_circle_down_24"
+                tools:ignore="TextSizeCheck" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/TransactionFrag_Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/_10ssp"
+            app:cardBackgroundColor="@color/editbox"
+            app:cardCornerRadius="@dimen/_7ssp"
+            app:strokeWidth="@dimen/_1sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingHorizontal="@dimen/_15ssp"
+                android:paddingVertical="@dimen/_7ssp"
+                android:text="Filter  "
+                android:textColor="@color/blue"
+                android:textSize="@dimen/_11sdp"
+                app:drawableEndCompat="@drawable/baseline_filter_list_24"
+                app:drawableTint="@color/blue"
+                tools:ignore="TextSizeCheck,TextSizeCheck" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/trans_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/recycler_trans" />
+
+</LinearLayout>

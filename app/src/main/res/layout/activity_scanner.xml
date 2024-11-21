@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    android:orientation="vertical"
+    tools:context=".Activity.ScannerActivity">
+
+
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/barcode_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_margin="@dimen/_15sdp"
+        app:cardBackgroundColor="@color/editbox"
+        app:cardCornerRadius="@dimen/_15sdp">
+
+        <ImageView
+            android:id="@+id/ScannerClear"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:src="@drawable/baseline_clar_24"
+            tools:ignore="ContentDescription" />
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_margin="@dimen/_5sdp"
+            app:cardBackgroundColor="@color/editbox"
+            app:cardCornerRadius="@dimen/_15sdp">
+
+            <ImageView
+                android:id="@+id/flashlightButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_flashlight_off_24"
+                tools:ignore="ContentDescription" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ScannerCardView"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_margin="@dimen/_5sdp"
+            app:cardBackgroundColor="@color/editbox"
+            app:cardCornerRadius="@dimen/_15sdp">
+
+            <ImageView
+                android:id="@+id/ScannerQRUsers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/baseline_qr_code_2_24"
+                tools:ignore="ContentDescription" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/ScannerImgUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ScannerGalleryImg"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/backgrounddra"
+        android:backgroundTint="@color/editbox"
+        android:gravity="center"
+        android:paddingHorizontal="@dimen/_15sdp"
+        android:paddingVertical="@dimen/_10sdp"
+        android:text=" Upload from gallery"
+        android:textColor="@color/black"
+        app:drawableStartCompat="@drawable/baseline_insert_photo_24"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/ScannerGalleryImg"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="@dimen/_240sdp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription" />
+
+
+</RelativeLayout>

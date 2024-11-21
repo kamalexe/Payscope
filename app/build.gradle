@@ -1,0 +1,97 @@
+plugins {
+    alias(libs.plugins.androidApplication)
+    alias(libs.plugins.googleAndroidLibrariesMapsplatformSecretsGradlePlugin)
+}
+
+android {
+    namespace 'pay.scope.payscope'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "pay.scope.payscope"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    implementation libs.play.services.maps
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+
+
+    implementation libs.denzcoskun.ImageSlideshow
+    implementation libs.ccp
+    implementation libs.sdp.android
+    implementation libs.ssp.android
+    //noinspection UseTomlInstead
+    implementation 'com.github.yuriy-budiyev:code-scanner:2.3.0'
+    implementation libs.circleimageview
+    //noinspection UseTomlInstead
+    implementation 'androidx.biometric:biometric:1.2.0-alpha05'
+    implementation libs.osmdroid.android
+    //noinspection UseTomlInstead
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
+    //noinspection UseTomlInstead
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation libs.retrofit
+    implementation libs.converter.gson
+    implementation libs.recyclerview
+    //noinspection UseTomlInstead
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
+    //noinspection UseTomlInstead
+    implementation 'com.google.code.gson:gson:2.10.1'
+    //noinspection UseTomlInstead
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+    //noinspection UseTomlInstead
+    implementation 'com.google.zxing:core:3.4.1'
+    //noinspection UseTomlInstead
+    implementation 'com.google.android.gms:play-services-location:21.3.0'
+
+    /*
+        implementation libs.denzcoskun.ImageSlideshow
+
+    implementation 'com.github.yuriy-budiyev:code-scanner:2.3.0'
+
+    implementation 'androidx.biometric:biometric:1.2.0-alpha03'
+
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
+
+    implementation 'com.squareup.okhttp3:okhttp:4.10.0'
+
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+
+    implementation 'com.google.zxing:core:3.4.1'
+
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+
+     */
+}

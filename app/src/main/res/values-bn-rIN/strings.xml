@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">পেস্কোপ</string>
+
+    <string name="my_language" translatable="false">আমার ভাষা</string>
+    <string name="received_from_john" translatable="false">জন থেকে প্রাপ্ত</string>
+    <string name="add_account" translatable="false"> হিসাব যোগ করা</string>
+    <string name="f_n_b_c" translatable="false">F N B C</string>
+    <string name="transfer_money" translatable="false">অর্থ স্থানান্তর করুন</string>
+    <string name="password_n_change" translatable="false">পাসওয়ার্ড \n পরিবর্তন করুন</string>
+    <string name="recharge_bill_service" translatable="false"><![CDATA[রিচার্জ এবং বিল পরিষেবা]]></string>
+    <string name="transactions" translatable="false">  লেনদেন</string>
+
+    <string name="general">সাধারণ</string>
+    <string name="account">হিসাব</string>
+    <string name="coupons">কুপন</string>
+    <string name="delete_account">মুছে ফেলা হিসাব</string>
+    <string name="feedback">প্রতিক্রিয়া</string>
+    <string name="report_a_bug">একটি বাগ রিপোর্ট করুন</string>
+    <string name="send_feedback">মতামত পাঠানো</string>
+    <string name="cash_back">নগদ ফেরত</string>
+    <string name="language">ভাষা</string>
+    <string name="notifications">বিজ্ঞপ্তি</string>
+    <string name="logout">প্রস্থান</string>
+    <string name="welcome">স্বাগত</string>
+    <string name="william_huffman">উইলিয়াম হাফম্যান</string>
+    <string name="person_management">ব্যক্তি ব্যবস্থাপনা</string>
+    <string name="transfer">স্থানান্তর</string>
+    <string name="scan">স্ক্যান</string>
+    <string name="utilities">ইউটিলিটিস</string>
+    <string name="quick_loan">দ্রুত ঋণ</string>
+    <string name="statement">বিবৃতি</string>
+    <string name="self_top_up">সেলফ টপ-আপ</string>
+    <string name="locator">লোকেটার</string>
+    <string name="contact_us">যোগাযোগ করুন</string>
+    <string name="refer">উল্লেখ করুন</string>
+
+
+</resources>

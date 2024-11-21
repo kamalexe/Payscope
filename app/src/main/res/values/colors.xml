@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#F3BD0C</color>
+    <color name="grey_text">#E8E9EB</color>
+    <color name="indigo">#00B7F5</color>
+    <color name="hint">#939195</color>
+    <color name="darkblue">#913AEA</color>
+    <color name="green">#0DD615</color>
+    <color name="card">#F1ECE5</color>
+    <color name="cardchange">#F3EDF6</color>
+    <color name="cardfix">#CABFE8</color>
+    <color name="red">#ED6C63</color>
+
+    <color name="selected_color">#FF4081</color>
+    <color name="link">#0000FF</color>
+    <color name="editLine">#CDCBCD</color>
+    <color name="textblue">#5E63CC</color>
+
+    <!--light color-->
+
+    <color name="lightblack">#606065</color>
+    <color name="lightyellow">#EDE4C4</color>
+    <color name="lightred">#F1CBC8</color>
+    <color name="lightgreen">#C3ECC4</color>
+    <color name="lightwhite">#F2F2F2</color>
+    <color name="layout">#F8F8F8</color>
+
+    <!--    New Color Code-->
+
+
+<!--    <color name="blue">#0D1282</color>-->
+    <color name="blue">#0A1D56</color>
+    <color name="lightblue">#9A9CD5</color>
+    <color name="process">#FDFCFC</color>
+    <color name="editbox">#f2f2f5</color>
+    <color name="abc">#77C8DB</color>
+    <color name="abc1">#F6F29F</color>
+    <color name="abc2">#F3D4D7</color>
+    <color name="abc3">#F2F6D0</color>
+    <color name="abc30">#F5BD21</color>
+    <color name="abc31">#ED4B9B</color>
+    <color name="abc311">#00B1EF</color>
+    <color name="abc3111">#606399</color>
+
+
+</resources>

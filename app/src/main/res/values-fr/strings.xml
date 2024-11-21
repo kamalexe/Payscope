@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Payscope</string>
+
+    <string name="my_language" translatable="false">Taku Reo</string>
+    <string name="received_from_john" translatable="false">Kua riro mai i a Hoani</string>
+    <string name="add_account" translatable="false">Tāpiri Pūkete</string>
+    <string name="f_n_b_c" translatable="false">F N B C</string>
+    <string name="transfer_money" translatable="false">Whakawhiti Moni</string>
+    <string name="password_n_change" translatable="false">KUPU KUPU \n HURI</string>
+    <string name="recharge_bill_service" translatable="false"><![CDATA[Ratonga Whakahou me te Pire]]></string>
+    <string name="transactions" translatable="false">Nga tauwhitinga</string>
+
+    <string name="general">GÉNÉRAL</string>
+    <string name="account">Compte</string>
+    <string name="coupons">Coupons</string>
+    <string name="delete_account">Supprimer le compte</string>
+    <string name="feedback">RETOUR</string>
+    <string name="report_a_bug">Signaler un bug</string>
+    <string name="send_feedback">Envoyer des commentaires</string>
+    <string name="cash_back">Remise en argent</string>
+    <string name="language">Langue</string>
+    <string name="notifications">Notifications</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="welcome">Accueillir</string>
+    <string name="william_huffman">William Huffman</string>
+    <string name="person_management">Gestion des personnes</string>
+    <string name="transfer">Transfert</string>
+    <string name="scan">Analyse</string>
+    <string name="utilities">Utilitaires</string>
+    <string name="quick_loan">Prêt rapide</string>
+    <string name="statement">Déclaration</string>
+    <string name="self_top_up">Recharge automatique</string>
+    <string name="locator">Localisateur</string>
+    <string name="contact_us">Contactez-nous</string>
+    <string name="refer">Référer</string>
+</resources>

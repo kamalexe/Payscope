@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <string name="app_name" translatable="false">పేస్కోప్</string>
+
+    <string name="my_language" translatable="false">నా భాష</string>
+    <string name="received_from_john" translatable="false"> జాన్ నుండి స్వీకరించబడింది</string>
+    <string name="add_account" translatable="false">  ఖాతా జోడించండి</string>
+    <string name="f_n_b_c" translatable="false"> ఎఫ్ ఎన్ బి సి</string>
+    <string name="transfer_money" translatable="false"> డబ్బును బదిలీ చేయండి</string>
+    <string name="password_n_change" translatable="false">  పాస్వర్డ్ మార్చండి</string>
+    <string name="recharge_bill_service" translatable="false"><![CDATA[రీఛార్జ్ & బిల్ సర్వీస్]]></string>
+    <string name="transactions" translatable="false">లావాదేవీలు</string>
+    <string name="general">సాధారణ</string>
+    <string name="account">ఖాతా</string>
+    <string name="coupons">కూపన్లు</string>
+    <string name="delete_account">ఖాతాను తొలగించండి</string>
+    <string name="feedback">అభిప్రాయం</string>
+    <string name="report_a_bug">బగ్‌ని నివేదించండి</string>
+    <string name="send_feedback">అభిప్రాయాన్ని పంపండి</string>
+    <string name="cash_back">డబ్బు వాపసు</string>
+    <string name="language">భాష</string>
+    <string name="notifications">నోటిఫికేషన్‌లు</string>
+    <string name="logout">లాగ్అవుట్</string>
+    <string name="welcome">స్వాగతం</string>
+    <string name="william_huffman">విలియం హఫ్ఫ్మన్</string>
+    <string name="person_management">వ్యక్తి నిర్వహణ</string>
+    <string name="transfer">బదిలీ చేయండి</string>
+    <string name="scan">స్కాన్ చేయండి</string>
+    <string name="utilities">యుటిలిటీస్</string>
+    <string name="quick_loan">త్వరిత రుణం</string>
+    <string name="statement">ప్రకటన</string>
+    <string name="self_top_up">స్వీయ టాప్-అప్</string>
+    <string name="locator">లొకేటర్</string>
+    <string name="contact_us">మమ్మల్ని సంప్రదించండి</string>
+    <string name="refer">సూచించండి</string>
+
+</resources>

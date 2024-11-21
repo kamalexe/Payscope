@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout"
+    android:orientation="vertical"
+    tools:context=".Activity.IRCTCActivity"
+    tools:ignore="HardcodedText">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/IRCTCBooking_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@color/blue"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"
+        app:navigationIconTint="@color/white"
+        app:titleTextColor="#ffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="IRCTC Booking"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold" />
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_230sdp"
+                    android:elevation="@dimen/_15sdp"
+                    app:cardBackgroundColor="@color/blue" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_310sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_50sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:elevation="@dimen/_140sdp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_15sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:src="@drawable/baseline_tain_24"
+                                tools:ignore="ContentDescription" />
+
+                            <EditText
+                                android:id="@+id/IRCTC_From"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/hint"
+                                android:hint="From"
+                                android:inputType="text"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/hint"
+                                android:textSize="@dimen/_12ssp"
+                                tools:ignore="Autofill,TextContrastCheck,VisualLintTextFieldSize,TouchTargetSizeCheck" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:src="@drawable/baseline_tain_24"
+                                tools:ignore="ContentDescription" />
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/hint"
+                                android:hint="To"
+                                android:inputType="text"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/hint"
+                                android:textSize="@dimen/_12ssp"
+                                tools:ignore="Autofill,TextContrastCheck,VisualLintTextFieldSize,TouchTargetSizeCheck" />
+                        </LinearLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_10sdp">
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/calenderRecycler"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_5sdp"
+                                android:layout_toStartOf="@id/line1" />
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/line1"
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:layout_alignParentEnd="true"
+                                app:cardBackgroundColor="@color/white"
+                                app:cardCornerRadius="@dimen/_5sdp"
+                                app:strokeColor="@color/editLine"
+                                app:strokeWidth="1dp"
+                                tools:ignore="TextSizeCheck">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    tools:ignore="UseCompoundDrawables">
+
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:contentDescription="@string/todo"
+                                        android:src="@drawable/baseline_calendar_month_24"
+                                        tools:ignore="TooDeepLayout" />
+
+                                    <TextView
+                                        android:id="@+id/date_pickerset"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Calendar"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/_10ssp" />
+                                </LinearLayout>
+
+                            </com.google.android.material.card.MaterialCardView>
+
+
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:orientation="horizontal"
+                            android:weightSum="3">
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/Ac_NonAc"
+                                android:layout_width="@dimen/_85sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="@dimen/_20sdp"
+                                app:strokeColor="@color/editLine"
+                                app:strokeWidth="1dp"
+                                tools:ignore="TextSizeCheck">
+
+                                <TextView
+                                    android:id="@+id/Ac_NonAcText"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:padding="@dimen/_5sdp"
+                                    android:text="AC &amp; Non-Ac"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_11ssp" />
+
+                            </com.google.android.material.card.MaterialCardView>
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/Ac_Only"
+                                android:layout_width="@dimen/_85sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_marginHorizontal="@dimen/_5sdp"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="@dimen/_20sdp"
+                                app:strokeColor="@color/editLine"
+                                app:strokeWidth="1dp">
+
+                                <TextView
+                                    android:id="@+id/Ac_OnlyText"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:padding="@dimen/_5sdp"
+                                    android:text="AC Only"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_11ssp" />
+
+                            </com.google.android.material.card.MaterialCardView>
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/NonAc_Only"
+                                android:layout_width="@dimen/_85sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="@dimen/_20sdp"
+                                app:strokeColor="@color/editLine"
+                                app:strokeWidth="1dp"
+                                tools:ignore="TextSizeCheck">
+
+                                <TextView
+                                    android:id="@+id/NonAc_OnlyText"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:padding="@dimen/_5sdp"
+                                    android:text="Non-AC Only"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_11ssp" />
+
+                            </com.google.android.material.card.MaterialCardView>
+
+
+                        </LinearLayout>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_43sdp"
+                            android:layout_marginHorizontal="@dimen/_15sdp"
+                            android:layout_marginTop="@dimen/_30sdp"
+                            android:backgroundTint="@color/blue"
+                            android:text="Search Trains"
+                            android:textColor="@color/white"
+                            tools:ignore="VisualLintButtonSize" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:text="IRCTC Authorised Partner"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_11sdp"
+                            app:drawableStartCompat="@drawable/baseline_tain_24"
+                            app:drawableTint="@color/black" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_35sdp"
+                app:cardBackgroundColor="@color/layout"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:strokeColor="@color/editLine"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_5sdp"
+                    android:weightSum="4"
+                    tools:ignore="DisableBaselineAlignment">
+
+                    <LinearLayout
+                        android:id="@+id/trainBooking"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_2sdp"
+                            android:src="@drawable/baseline_card_giftcard_24"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:text="My Booking"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_9ssp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/PNR_Status"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_2sdp"
+                            android:src="@drawable/baseline_stacked_bar_chart_24"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:text="PNR Status"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_9ssp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/TrainStatus"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_2sdp"
+                            android:src="@drawable/baseline_tain_24"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:text="Train Status"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_9ssp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/TrainFoodOrder"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_2sdp"
+                            android:src="@drawable/baseline_fastfood_24"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:text="Order Food"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_9ssp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

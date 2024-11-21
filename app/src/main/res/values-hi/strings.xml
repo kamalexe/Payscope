@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">पेस्कोप</string>
+
+    <string name="my_language" translatable="false">मेरी भाषा</string>
+    <string name="received_from_john" translatable="false">जॉन से प्राप्त किया गया</string>
+    <string name="add_account" translatable="false">खाता जोड़ें</string>
+    <string name="f_n_b_c" translatable="false">एफ एन बी सी</string>
+    <string name="transfer_money" translatable="false"> धन हस्तांतरण</string>
+    <string name="password_n_change" translatable="false"> पासवर्ड \n बदलें</string>
+    <string name="recharge_bill_service" translatable="false"><![CDATA[  रिचार्ज एवं बिल सेवा]]></string>
+    <string name="transactions" translatable="false">लेनदेन</string>
+
+    <string name="general">सामान्य</string>
+    <string name="account">खाता</string>
+    <string name="coupons">कूपन</string>
+    <string name="delete_account">खाता हटा दो</string>
+    <string name="feedback">प्रतिक्रिया</string>
+    <string name="report_a_bug">एक बग रिपोर्ट करो</string>
+    <string name="send_feedback">प्रतिक्रिया भेजें</string>
+    <string name="cash_back">नकदी वापस</string>
+    <string name="language">भाषा</string>
+    <string name="notifications">सूचनाएं</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="welcome">स्वागत</string>
+    <string name="william_huffman">विलियम हफ़मैन</string>
+    <string name="person_management">व्यक्ति प्रबंधन</string>
+    <string name="transfer">स्थानांतरण</string>
+    <string name="scan">स्कैन</string>
+    <string name="utilities">उपयोगिताओं</string>
+    <string name="quick_loan">त्वरित ऋण</string>
+    <string name="statement">कथन</string>
+    <string name="self_top_up">सेल्फ टॉप-अप</string>
+    <string name="locator">सुनने का यंत्र</string>
+    <string name="contact_us">संपर्क करें</string>
+    <string name="refer">संदर्भ देना</string>
+</resources>

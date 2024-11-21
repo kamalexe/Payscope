@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/g"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Payscope"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.DrawerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.QuickTransferHistory"
+            android:exported="false" /> <!-- https://developers.google.com/maps/documentation/android-sdk/get-api-key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_api" />
+
+        <activity
+            android:name=".Activity.MapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PINChangeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.UPIPINActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.InvestmentMoreDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.InvestmentDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.InvestmentActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".Activity.ScannerDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.UsersQRActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ScannerUPIActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PlanShowPostpaidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChoosePlanPostpaidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RechargePlanShowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.BudgetExpensesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.BudgetAllActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.FlightBookingCopilotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.FlightMyBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.FlightBookingOfferActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DownloadStatementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.FiltersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CashBackDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChatsContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChatsUserDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PayAmountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LegalPrivacyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.InviteEarnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SecurityCentreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MyWalletActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.InvoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SelfTopUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RedamptionDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CouponsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.FoundBankActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SelectAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddAddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.IRCTCFoodOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.IRCTCStatusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.IRCTCPNRStatusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.IRCTCBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SupportRechargeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SupportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.HelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PAepsTransactionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PAepsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.UtilitiesReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.UtilitiesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AadharFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AadharPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.StatisticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LoanEMIActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.QuickLoanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MicroATMActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ReportBugActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SendFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ICICITransactionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ICICIAEPSActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ICICIEKycVerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.FastTransactionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.FasTagPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.BillSuccessfullActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.BillPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PanCardDocumentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PenCardServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PaymentProtectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PersonalAccidentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CriticalillnessInsuranceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CarInsuranceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.BikeInsuranceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.HealthInsuranceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.NotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.InsurancePaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SelectDestinationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AdultEconomyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.FlightBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.IRCTCActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DTHRechargeDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DTHRechargeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RegistrationActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LoginActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.StatementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddUPIActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.QuickViewAllActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ContactUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChoosePlanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MobileRechargeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.UserBankDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MoveToBankActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LanguageChangeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PasswordChangeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProfileUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AccountDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddBankActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CashBackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ReceiveMoneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SendMoneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ScannerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.VerifyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ValidationNumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.NumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.BudgetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.QuickTransferActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MoneyTransferActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

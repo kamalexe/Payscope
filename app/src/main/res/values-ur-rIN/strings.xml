@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">پے سکوپ</string>
+
+    <string name="my_language" translatable="false">میری زبان</string>
+    <string name="received_from_john" translatable="false">  جان سے موصول ہوا۔</string>
+    <string name="add_account" translatable="false"> اکاؤنٹ کا اضافہ</string>
+    <string name="f_n_b_c" translatable="false">ایف این بی سی</string>
+    <string name="transfer_money" translatable="false"> پیسے کی منتقلی</string>
+    <string name="password_n_change" translatable="false">    پاس ورڈ \n تبدیل کریں۔
+</string>
+    <string name="recharge_bill_service" translatable="false"><![CDATA[ریچارج اور بل سروس]]></string>
+    <string name="transactions" translatable="false"> لین دین</string>
+
+    <string name="general">جنرل</string>
+    <string name="account">کھاتہ</string>
+    <string name="coupons">کوپن</string>
+    <string name="delete_account">کھاتہ مٹا دو</string>
+    <string name="feedback">فیڈ بیک</string>
+    <string name="report_a_bug">ایک بگ کی اطلاع دیں۔</string>
+    <string name="send_feedback">رائے بھیجیں</string>
+    <string name="cash_back">پیسے واپس</string>
+    <string name="language">زبان</string>
+    <string name="notifications">اطلاعات</string>
+    <string name="logout">لاگ آوٹ</string>
+    <string name="welcome">خوش آمدید</string>
+    <string name="william_huffman">ولیم ہف مین</string>
+    <string name="person_management">پرسن مینجمنٹ</string>
+    <string name="transfer">منتقلی</string>
+    <string name="scan">اسکین کریں۔</string>
+    <string name="utilities">افادیت</string>
+    <string name="quick_loan">فوری قرض</string>
+    <string name="statement">بیان</string>
+    <string name="self_top_up">سیلف ٹاپ اپ</string>
+    <string name="locator">لوکیٹر</string>
+    <string name="contact_us">ہم سے رابطہ کریں۔</string>
+    <string name="refer">رجوع کریں۔</string>
+
+</resources>

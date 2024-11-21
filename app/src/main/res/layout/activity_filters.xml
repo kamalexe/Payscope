@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity.FiltersActivity"
+    tools:ignore="HardcodedText">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/Filters_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@color/blue"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"
+        app:navigationIconTint="@color/white"
+        app:titleTextColor="#ffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Filters"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold" />
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/FiltersBtn"
+        android:layout_below="@id/Filters_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/_5ssp"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_weight="1"
+                android:background="@color/editbox"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/months_option"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingVertical="@dimen/_10sdp"
+                    android:text="Months"
+                    android:textColor="@color/hint"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:background="@color/editLine"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:inputType="none"
+                    android:paddingHorizontal="@dimen/_40sdp"
+                    tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+                <TextView
+                    android:id="@+id/categories_option"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingVertical="@dimen/_10sdp"
+                    android:text="Categories"
+                    android:textColor="@color/hint"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:background="@color/editLine"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:inputType="none"
+                    android:paddingHorizontal="@dimen/_40sdp"
+                    tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+
+                <TextView
+                    android:id="@+id/instrument_option"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingVertical="@dimen/_10sdp"
+                    android:text="Instrument"
+                    android:textColor="@color/hint"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:background="@color/editLine"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:inputType="none"
+                    android:paddingHorizontal="@dimen/_40sdp"
+                    tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+                <TextView
+                    android:id="@+id/status_option"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingVertical="@dimen/_10sdp"
+                    android:text="Status"
+                    android:textColor="@color/hint"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:background="@color/editLine"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:inputType="none"
+                    android:paddingHorizontal="@dimen/_40sdp"
+                    tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@color/editLine"
+                android:clickable="false"
+                android:focusable="false"
+                android:inputType="none"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/FiltersViewPager2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/FiltersBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_43sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:backgroundTint="@color/blue"
+        android:text="Apply"
+        android:textColor="@color/white"
+        tools:ignore="VisualLintButtonSize" />
+
+</RelativeLayout>

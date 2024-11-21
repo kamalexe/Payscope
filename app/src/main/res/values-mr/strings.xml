@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <string name="app_name" translatable="false">पेस्कोप</string>
+
+    <string name="my_language" translatable="false">माझी भाषा</string>
+    <string name="received_from_john" translatable="false"> जॉनकडून प्राप्त झाले</string>
+    <string name="add_account" translatable="false">खाते जोडा</string>
+    <string name="f_n_b_c" translatable="false">F N B C</string>
+    <string name="transfer_money" translatable="false"> पैसे पाठवा</string>
+    <string name="password_n_change" translatable="false"> पासवर्ड बदला</string>
+    <string name="recharge_bill_service" translatable="false"><![CDATA[रिचार्ज आणि बिल सेवा]]></string>
+    <string name="transactions" translatable="false">व्यवहार</string>
+
+    <string name="general">सामान्य</string>
+    <string name="account">खाते</string>
+    <string name="coupons">कूपन</string>
+    <string name="delete_account">खाते हटवा</string>
+    <string name="feedback">फीडबॅक</string>
+    <string name="report_a_bug">उणिव कळवा</string>
+    <string name="send_feedback">अभिप्राय पाठवा</string>
+    <string name="cash_back">पैसे परत</string>
+    <string name="language">इंग्रजी</string>
+    <string name="notifications">अधिसूचना</string>
+    <string name="logout">बाहेर पडणे</string>
+    <string name="welcome">स्वागत आहे</string>
+    <string name="william_huffman">विल्यम हफमन</string>
+    <string name="person_management">व्यक्ती व्यवस्थापन</string>
+    <string name="transfer">हस्तांतरण</string>
+    <string name="scan">स्कॅन करा</string>
+    <string name="utilities">उपयुक्तता</string>
+    <string name="quick_loan">त्वरित कर्ज</string>
+    <string name="statement">विधान</string>
+    <string name="self_top_up">सेल्फ टॉप-अप</string>
+    <string name="locator">लोकेटर</string>
+    <string name="contact_us">आमच्याशी संपर्क साधा</string>
+    <string name="refer">संदर्भ द्या</string>
+
+
+</resources>

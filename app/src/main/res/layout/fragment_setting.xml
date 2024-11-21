@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settingFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout"
+    android:orientation="vertical"
+    tools:context=".Fragment.SettingFragment"
+    tools:ignore="HardcodedText,SpeakableTextPresentCheck">
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_marginVertical="@dimen/_10sdp"-->
+    <!--        android:orientation="vertical">-->
+
+
+    <!--        <com.google.android.material.card.MaterialCardView-->
+    <!--            android:id="@+id/cashback"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="@dimen/_40sdp"-->
+    <!--            android:layout_marginHorizontal="@dimen/_20sdp"-->
+    <!--            android:layout_marginTop="@dimen/_7sdp"-->
+    <!--            android:elevation="@dimen/_5sdp"-->
+    <!--            app:cardBackgroundColor="@color/editbox">-->
+
+
+    <!--            <RelativeLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:layout_marginHorizontal="@dimen/_10sdp">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:orientation="horizontal"-->
+    <!--                    tools:ignore="UseCompoundDrawables">-->
+
+    <!--                    <ImageView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:src="@drawable/baseline_shopping_bag_24"-->
+    <!--                        tools:ignore="ContentDescription" />-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_gravity="center"-->
+    <!--                        android:layout_marginStart="@dimen/_5sdp"-->
+    <!--                        android:text="@string/cash_back"-->
+    <!--                        android:textColor="@color/black"-->
+    <!--                        android:textSize="@dimen/_10sdp"-->
+    <!--                        tools:ignore="TextSizeCheck" />-->
+    <!--                </LinearLayout>-->
+
+    <!--                <ImageView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_alignParentEnd="true"-->
+    <!--                    android:src="@drawable/baseline_chevron_right_24"-->
+    <!--                    tools:ignore="ContentDescription" />-->
+
+    <!--            </RelativeLayout>-->
+
+    <!--        </com.google.android.material.card.MaterialCardView>-->
+
+    <!--        <com.google.android.material.card.MaterialCardView-->
+    <!--            android:id="@+id/language"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="@dimen/_40sdp"-->
+    <!--            android:layout_marginHorizontal="@dimen/_20sdp"-->
+    <!--            android:layout_marginTop="@dimen/_7sdp"-->
+    <!--            android:elevation="@dimen/_5sdp"-->
+    <!--            app:cardBackgroundColor="@color/editbox">-->
+
+
+    <!--            <RelativeLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:layout_marginHorizontal="@dimen/_10sdp">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:orientation="horizontal"-->
+    <!--                    tools:ignore="UseCompoundDrawables">-->
+
+    <!--                    <ImageView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:src="@drawable/baseline_language_24"-->
+    <!--                        tools:ignore="ContentDescription" />-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_gravity="center"-->
+    <!--                        android:layout_marginStart="@dimen/_5sdp"-->
+    <!--                        android:text="@string/language"-->
+    <!--                        android:textColor="@color/black"-->
+    <!--                        android:textSize="@dimen/_10sdp"-->
+    <!--                        tools:ignore="TextSizeCheck" />-->
+    <!--                </LinearLayout>-->
+
+    <!--                <ImageView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_alignParentEnd="true"-->
+    <!--                    android:src="@drawable/baseline_chevron_right_24"-->
+    <!--                    tools:ignore="ContentDescription" />-->
+
+    <!--            </RelativeLayout>-->
+
+    <!--        </com.google.android.material.card.MaterialCardView>-->
+
+    <!--        <com.google.android.material.card.MaterialCardView-->
+    <!--            android:id="@+id/report_bug"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="@dimen/_40sdp"-->
+    <!--            android:layout_marginHorizontal="@dimen/_20sdp"-->
+    <!--            android:layout_marginTop="@dimen/_7sdp"-->
+    <!--            android:elevation="@dimen/_5sdp"-->
+    <!--            app:cardBackgroundColor="@color/editbox">-->
+
+    <!--            <RelativeLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:layout_marginHorizontal="@dimen/_10sdp">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:orientation="horizontal"-->
+    <!--                    tools:ignore="UseCompoundDrawables">-->
+
+    <!--                    <ImageView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:src="@drawable/baseline_bug_report_24"-->
+    <!--                        tools:ignore="ContentDescription" />-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_gravity="center"-->
+    <!--                        android:layout_marginStart="@dimen/_5sdp"-->
+    <!--                        android:text="@string/report_a_bug"-->
+    <!--                        android:textColor="@color/black"-->
+    <!--                        android:textSize="@dimen/_10sdp"-->
+    <!--                        tools:ignore="TextSizeCheck" />-->
+    <!--                </LinearLayout>-->
+
+    <!--                <ImageView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_alignParentEnd="true"-->
+    <!--                    android:src="@drawable/baseline_chevron_right_24"-->
+    <!--                    tools:ignore="ContentDescription" />-->
+
+    <!--            </RelativeLayout>-->
+
+
+    <!--        </com.google.android.material.card.MaterialCardView>-->
+
+    <!--        <com.google.android.material.card.MaterialCardView-->
+    <!--            android:id="@+id/coupons"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="@dimen/_40sdp"-->
+    <!--            android:layout_marginHorizontal="@dimen/_20sdp"-->
+    <!--            android:layout_marginTop="@dimen/_7sdp"-->
+    <!--            android:elevation="@dimen/_5sdp"-->
+    <!--            app:cardBackgroundColor="@color/editbox">-->
+
+    <!--            <RelativeLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:layout_marginHorizontal="@dimen/_10sdp">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:orientation="horizontal"-->
+    <!--                    tools:ignore="UseCompoundDrawables">-->
+
+    <!--                    <ImageView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:src="@drawable/baseline_card_giftcard_24"-->
+    <!--                        tools:ignore="ContentDescription" />-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_gravity="center"-->
+    <!--                        android:layout_marginStart="@dimen/_5sdp"-->
+    <!--                        android:text="@string/coupons"-->
+    <!--                        android:textColor="@color/black"-->
+    <!--                        android:textSize="@dimen/_10sdp"-->
+    <!--                        tools:ignore="TextSizeCheck" />-->
+    <!--                </LinearLayout>-->
+
+    <!--                <ImageView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_alignParentEnd="true"-->
+    <!--                    android:src="@drawable/baseline_chevron_right_24"-->
+    <!--                    tools:ignore="ContentDescription" />-->
+
+    <!--            </RelativeLayout>-->
+
+    <!--        </com.google.android.material.card.MaterialCardView>-->
+
+    <!--        <com.google.android.material.card.MaterialCardView-->
+    <!--            android:id="@+id/send_feedback"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="@dimen/_40sdp"-->
+    <!--            android:layout_marginHorizontal="@dimen/_20sdp"-->
+    <!--            android:layout_marginTop="@dimen/_7sdp"-->
+
+    <!--            android:elevation="@dimen/_5sdp"-->
+    <!--            app:cardBackgroundColor="@color/editbox">-->
+
+    <!--            <RelativeLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:layout_marginHorizontal="@dimen/_10sdp">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:orientation="horizontal"-->
+    <!--                    tools:ignore="UseCompoundDrawables">-->
+
+    <!--                    <ImageView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:src="@drawable/baseline_send_24"-->
+    <!--                        tools:ignore="ContentDescription" />-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_gravity="center"-->
+    <!--                        android:layout_marginStart="@dimen/_5sdp"-->
+    <!--                        android:text="@string/send_feedback"-->
+    <!--                        android:textColor="@color/black"-->
+    <!--                        android:textSize="@dimen/_10sdp"-->
+    <!--                        tools:ignore="TextSizeCheck" />-->
+    <!--                </LinearLayout>-->
+
+    <!--                <ImageView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_alignParentEnd="true"-->
+    <!--                    android:src="@drawable/baseline_chevron_right_24"-->
+    <!--                    tools:ignore="ContentDescription" />-->
+
+    <!--            </RelativeLayout>-->
+
+
+    <!--        </com.google.android.material.card.MaterialCardView>-->
+
+    <!--        <com.google.android.material.card.MaterialCardView-->
+    <!--            android:id="@+id/transactionSetting"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="@dimen/_40sdp"-->
+    <!--            android:layout_marginHorizontal="@dimen/_20sdp"-->
+    <!--            android:layout_marginTop="@dimen/_7sdp"-->
+    <!--            android:elevation="@dimen/_5sdp"-->
+    <!--            android:visibility="gone"-->
+    <!--            app:cardBackgroundColor="@color/editbox">-->
+
+    <!--            <RelativeLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:layout_marginHorizontal="@dimen/_10sdp">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:orientation="horizontal"-->
+    <!--                    tools:ignore="UseCompoundDrawables">-->
+
+    <!--                    <ImageView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:src="@drawable/baseline_receipt_24"-->
+    <!--                        tools:ignore="ContentDescription" />-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_gravity="center"-->
+    <!--                        android:layout_marginStart="@dimen/_5sdp"-->
+    <!--                        android:text="@string/transactions"-->
+    <!--                        android:textColor="@color/black"-->
+    <!--                        android:textSize="@dimen/_10sdp" />-->
+    <!--                </LinearLayout>-->
+
+    <!--                <ImageView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_alignParentEnd="true"-->
+    <!--                    android:src="@drawable/baseline_chevron_right_24"-->
+    <!--                    tools:ignore="ContentDescription" />-->
+
+    <!--            </RelativeLayout>-->
+
+
+    <!--        </com.google.android.material.card.MaterialCardView>-->
+
+    <!--        <com.google.android.material.card.MaterialCardView-->
+    <!--            android:id="@+id/logout"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="@dimen/_40sdp"-->
+    <!--            android:layout_marginHorizontal="@dimen/_20sdp"-->
+    <!--            android:layout_marginTop="@dimen/_7sdp"-->
+    <!--            android:layout_marginBottom="@dimen/_10sdp"-->
+    <!--            android:elevation="@dimen/_5sdp"-->
+    <!--            app:cardBackgroundColor="@color/editbox">-->
+
+    <!--            <RelativeLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:layout_marginHorizontal="@dimen/_10sdp">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:orientation="horizontal"-->
+    <!--                    tools:ignore="UseCompoundDrawables">-->
+
+    <!--                    <ImageView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:src="@drawable/baseline_logout_24"-->
+    <!--                        tools:ignore="ContentDescription" />-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_gravity="center"-->
+    <!--                        android:layout_marginStart="@dimen/_5sdp"-->
+    <!--                        android:text="@string/logout"-->
+    <!--                        android:textColor="@color/black"-->
+    <!--                        android:textSize="@dimen/_10sdp"-->
+    <!--                        tools:ignore="TextSizeCheck" />-->
+    <!--                </LinearLayout>-->
+
+    <!--                <ImageView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_alignParentEnd="true"-->
+    <!--                    android:src="@drawable/baseline_chevron_right_24"-->
+    <!--                    tools:ignore="ContentDescription" />-->
+
+    <!--            </RelativeLayout>-->
+
+    <!--        </com.google.android.material.card.MaterialCardView>-->
+
+    <!--    </LinearLayout>-->
+
+
+</androidx.core.widget.NestedScrollView>
+

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/_5sdp"
+    android:elevation="@dimen/_10sdp"
+    android:orientation="horizontal"
+    app:cardBackgroundColor="@color/white"
+    tools:ignore="HardcodedText">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_7sdp"
+        android:padding="@dimen/_5sdp">
+
+
+        <TextView
+            android:id="@+id/planPrisePostpaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_toStartOf="@id/showDetailsPostpaid"
+            android:layout_toEndOf="@id/planPrisePostpaid"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/plandataPostpaid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data"
+                android:textColor="@color/hint"
+                android:textSize="@dimen/_11ssp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/planNetpackPostpaid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp" />
+
+            <TextView
+                android:id="@+id/plandetailsPostpaid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data 1.5 Gb | Validity Existing Plan | For users with an activity validity plan - for all customers"
+                android:textColor="@color/hint"
+                android:textSize="@dimen/_10ssp"
+                tools:ignore="TextContrastCheck" />
+
+            <com.google.android.material.card.MaterialCardView
+                style="?attr/materialCardViewElevatedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_2sdp"
+                app:cardBackgroundColor="@color/editbox"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/planAddonDataPostpaid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:paddingHorizontal="@dimen/_5sdp"
+                    android:text="Best Seller (Data Addon)"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp" />
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/showDetailsPostpaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/baseline_chevron_right_24" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

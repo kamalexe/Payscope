@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <string name="app_name" translatable="false">પેસ્કોપ</string>
+
+    <string name="my_language" translatable="false">મારી ભાષા</string>
+    <string name="received_from_john" translatable="false">જ્હોન પાસેથી પ્રાપ્ત</string>
+    <string name="add_account" translatable="false"> ખાતું ઉમેરો</string>
+    <string name="f_n_b_c" translatable="false">F N B C</string>
+    <string name="transfer_money" translatable="false"> પૈસા ટ્રાન્સફર કરો</string>
+    <string name="password_n_change" translatable="false">પાસવર્ડ \n બદલો</string>
+    <string name="recharge_bill_service" translatable="false"><![CDATA[ રિચાર્જ અને બિલ સેવા]]></string>
+    <string name="transactions" translatable="false">વ્યવહારો</string>
+    <string name="general">સામાન્ય</string>
+    <string name="account">એકાઉન્ટ</string>
+    <string name="coupons">કૂપન્સ</string>
+    <string name="delete_account">એકાઉન્ટ કાઢી નાખો</string>
+    <string name="feedback">પ્રતિભાવ</string>
+    <string name="report_a_bug">બગની જાણ કરો</string>
+    <string name="send_feedback">પ્રતિસાદ મોકલ</string>
+    <string name="cash_back">પાછા આવેલા પૈસા</string>
+    <string name="language">ભાષા</string>
+    <string name="notifications">સૂચનાઓ</string>
+    <string name="logout">લૉગ આઉટ</string>
+    <string name="welcome">સ્વાગત છે</string>
+    <string name="william_huffman">વિલિયમ હફમેન</string>
+    <string name="person_management">વ્યક્તિ સંચાલન</string>
+    <string name="transfer">ટ્રાન્સફર</string>
+    <string name="scan">સ્કેન કરો</string>
+    <string name="utilities">ઉપયોગિતાઓ</string>
+    <string name="quick_loan">ઝડપી લોન</string>
+    <string name="statement">નિવેદન</string>
+    <string name="self_top_up">સેલ્ફ ટોપ-અપ</string>
+    <string name="locator">લોકેટર</string>
+    <string name="contact_us">અમારો સંપર્ક કરો</string>
+    <string name="refer">સંદર્ભ લો</string>
+</resources>

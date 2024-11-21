@@ -1,0 +1,98 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Payscope</string>
+
+    <string name="my_language" translatable="false">My Language</string>
+    <string name="received_from_john" translatable="false">Received from John</string>
+    <string name="add_account" translatable="false">Add Account</string>
+    <string name="f_n_b_c" translatable="false">F N B C</string>
+    <string name="transfer_money" translatable="false">Transfer Money</string>
+    <string name="password_n_change" translatable="false">PASSWORD \n CHANGE</string>
+    <string name="recharge_bill_service" translatable="false"><![CDATA[Recharge & Bill Service]]></string>
+    <string name="transactions" translatable="false">Transactions</string>
+
+    <string name="general">GENERAL</string>
+    <string name="account">Account</string>
+    <string name="coupons">Coupons</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="report_a_bug">Report a bug</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="cash_back">Cashback</string>
+    <string name="language">Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">Welcome</string>
+    <string name="william_huffman">William Huffman</string>
+    <string name="person_management">Person Management</string>
+    <string name="transfer">Transfer</string>
+    <string name="scan">Scan</string>
+    <string name="utilities">Utilities</string>
+    <string name="quick_loan">Quick Loan</string>
+    <string name="statement">Statement</string>
+    <string name="self_top_up">Self Top-Up</string>
+    <string name="locator">Locator</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="refer">Refer</string>
+
+    <string name="phone_no" tools:ignore="MissingTranslation"><u>+91 1234567890</u></string>
+    <string name="email" tools:ignore="MissingTranslation"><u>abcd1234@gmail.com</u></string>
+    <string name="address" tools:ignore="MissingTranslation"><u>Lucknow Dlf my pad</u></string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="todo" tools:ignore="MissingTranslation">TODO</string>
+
+
+    <string name="privacy" translatable="false">
+        If you’ve ever signed up for a social media platform, created an email address, downloaded an app, or ordered something online—In short, if you are anybody reading this article— you’ve encountered a privacy policy.
+
+A privacy policy is a thorough explanation of how you plan to use any personal information that you collect through your mobile app or website. These policies are sometimes called privacy statements or privacy notices. They serve as legal documents meant to protect both company and consumers.
+
+Privacy policies are different from data protection (or security) agreements and cookie policies. A data protection agreement is an internal document that outlines how you, your company, and any third-party vendors will work to safely handle your customers’ personal information. Your customers are unlikely to ever have a reason to read your data security agreement.
+
+A cookie policy lets users of your website or app know that you use tiny pieces of code stored on their hardware called cookies to track and store some of their activity. These policies tend to pop up when users first access a website, as opposed to a privacy policy which will likely only come up when users enter their personal data to — for example — register an account with you.
+
+If your company collects any type of personal information from users, a clear and accessible privacy policy is a must. Let’s take a look at what privacy policies are for, how you can manage them, and how you can save yourself a ton of time (and legal headaches) by strategically managing them.
+
+The purpose of a privacy policy
+Privacy policies exist to protect customers from predatory data collection practices. A good policy will also protect your company by explaining which data you’re collecting from customers, why you’re collecting it, and how your company plans to use that data in the future.
+
+Say your company collects birth dates from customers as a way to calculate sales statistics for a particular demographic, and as a way to build customer retention by sending out birthday coupons. The privacy policy would explain that personal information would be used for internal sales tracking purposes, and also for marketing purposes. If your company also sells those birthdates to a third party, the privacy policy would need to disclose that, too.
+
+When do I need a privacy policy?
+Basically, if you or your company collects any type of personal information, you need a privacy policy. Email addresses, names, birthdays, social security numbers and credit card numbers are all examples of personal information. Your method of collecting this information might vary. You may use a website, a mobile app, an eCommerce site or emails to get the info. No matter how you get users’ personal data, you will need a policy that explains what you’re using it for.
+
+Is a privacy policy required by law?
+In short: Yes! Several privacy regulation laws require privacy policies. This is a fairly recent development, and the laws aren’t the same everywhere.
+
+The GDPR (General Data Protection Regulation) laws set guidelines starting in 2016 for how data can be collected and processed if you live or do business in the EU. The CCPA (California Consumer Privacy Act) is a state statute signed in 2018 meant to protect the residents of California from predatory data collection practices.
+
+There’s currently no single piece of federal legislation that governs the way that companies disclose their data use and collection practices. But chances are, some of your online customers are from the EU or California, where this legislation exists and is enforceable. What’s more, if you collect data from your customers, you are under legal obligation to keep it safe. The Federal Trade Commission (FTC) governs and oversees customer complaints about data collection and data breaches. By having a privacy policy, you no longer have to fear a security breach situation where a customer can claim they weren’t even notified that you were collecting their data.
+
+Parts of a privacy policy
+A privacy policy is a legal document, so it needs to include some very specific things. You have some wiggle room with what information you’ll write the policy itself, but not much. GDPR and CCPA regulations require privacy policies written in clear and easy-to-understand language.  A strong privacy policy includes:
+
+A list of the type of information that your company collects, and how it is collected. Some websites only store information that is expressly given to them through an online form, for example. Other websites might ask permission to collect data through your cell phone location or web browser and, if permission is granted, store that information, too. Your company may also partner with social media platforms to get further customer data, which a privacy policy would need to clearly spell out.
+The reason that your company is collecting the data. Is the data being used to market your products? Is it used to improve customer experience? Is it mainly for understanding who your target customer is? Maybe it’s a combination of these things and more. You will need to define your company’s reasoning for collecting and keeping customer data. You’ll also need to make a case for why it’s necessary for you to have this data in order to conduct business, according to GDPR regulations. (Here are some GDPR privacy policy examples.)
+All of the things that your company plans to do (and not do) with customer data. If your company plans to partner with a third party to use customer data, that needs to be clearly explained in the privacy policy. If law enforcement agencies will be able to request the data for any reason, that will need to be mentioned as well. The privacy policy also needs to detail where the data is stored and how it’s going to be kept safe from potential security threats. You’ll need to explain how long you will keep the data, and how you will securely wipe data after a certain period of time or a customer’s request.
+The opt-out policy. The CCPA requires that customers be given the option to delete data that companies have collected from them, as well as opt-out of the sale of their personal information. Details on how customers can do that need to be provided in your privacy policy.
+Limitations of privacy policy
+    </string>
+
+    <string name="dec" translatable="false">
+        No need to maintain 50% cash margin for your FnO trades. With \'Margin Plus\', get margin funding at the lowest interest rate:
+
+Intraday Rates (All Segments) - 0.00%
+Overnight Rates for F&amp;O Segment - 0.04% Per Day (Network Below ₹5 Lakes*)
+Overnight Rates for F&amp;O Segment - 0.03% Per Day (Network Above ₹5 Lakes*)
+Rates on Delivery Cash Segment(MTF) - 0.06% Per Day (Networth upto ₹5 Lakhs*)
+Rates on Delivery Cash Segment(MTF) - 0.05% Per Day (Net Worth between ₹5 Lakhs to ₹1 Cr*)
+Rates on Delivery Cash Segment(MTF) - 0.045% Per Day (Net Worth above ₹1 Cr*)
+    </string>
+    <string name="map" translatable="false">Map</string>
+
+</resources>
+
+

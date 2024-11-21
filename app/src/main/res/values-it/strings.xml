@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <string name="app_name" translatable="false">Payscope</string>
+
+    <string name="my_language" translatable="false">Mio linguaggio</string>
+    <string name="received_from_john" translatable="false"> Ricevuto da Giovanni</string>
+    <string name="add_account" translatable="false"> Aggiungi account</string>
+    <string name="f_n_b_c" translatable="false">F N B C</string>
+    <string name="transfer_money" translatable="false">Trasferire denaro</string>
+    <string name="password_n_change" translatable="false"> PASSWORD \n CAMBIA</string>
+    <string name="recharge_bill_service" translatable="false"><![CDATA[Servizio di ricarica e fatturazione]]></string>
+    <string name="transactions" translatable="false">Transazioni</string>
+
+    <string name="general">GENERALE</string>
+    <string name="account">Account</string>
+    <string name="coupons">Buoni</string>
+    <string name="delete_account">Eliminare l\'account</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="report_a_bug">Segnalare un bug</string>
+    <string name="send_feedback">Invia feedback</string>
+    <string name="cash_back">Rimborso</string>
+    <string name="language">Lingua</string>
+    <string name="notifications">Notifiche</string>
+    <string name="logout">Disconnettersi</string>
+    <string name="welcome">Benvenuto</string>
+    <string name="william_huffman">William Huffmann</string>
+    <string name="person_management">Gestione delle persone</string>
+    <string name="transfer">Trasferimento</string>
+    <string name="scan">Scansione</string>
+    <string name="utilities">Utilità</string>
+    <string name="quick_loan">Prestito veloce</string>
+    <string name="statement">Dichiarazione</string>
+    <string name="self_top_up">Autoricarica</string>
+    <string name="locator">Localizzatore</string>
+    <string name="contact_us">Contattaci</string>
+    <string name="refer">Fare riferimento</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawerScan"
+        android:drawable="@color/editbox"
+        android:icon="@drawable/baseline_qr_code_scanner_24"
+        android:state_checked="true"
+        android:title="@string/scan" />
+    <item
+        android:id="@+id/drawerWallet"
+        android:drawable="@color/editbox"
+        android:icon="@drawable/baseline_wallet_24"
+        android:state_checked="true"
+        android:title=" My Wallet"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/drawerSecurityCentre"
+        android:drawable="@color/editbox"
+        android:icon="@drawable/baseline_security_24"
+        android:state_checked="true"
+        android:title="Security Centre"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/drawerInvite"
+        android:drawable="@color/editbox"
+        android:icon="@drawable/baseline_inventory_24"
+        android:title="Invite &amp; Earn"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/drawerPrivacy"
+        android:drawable="@color/editbox"
+        android:icon="@drawable/baseline_privacy_tip_24"
+        android:title="Legal &amp; Privacy"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/drawerSelf_top_up"
+        android:drawable="@color/editbox"
+        android:icon="@drawable/baseline_photo_camera_front_24"
+        android:title="@string/self_top_up" />
+    <item
+        android:id="@+id/drawerChatsContact"
+        android:drawable="@color/editbox"
+        android:icon="@drawable/baseline_chat_24"
+        android:state_checked="true"
+        android:title="Chats"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/drawerBudget"
+        android:drawable="@color/editbox"
+        android:icon="@drawable/baseline_badge_24"
+        android:state_checked="true"
+        android:title="Budget"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+    <item
+        android:id="@+id/drawerLocator"
+        android:drawable="@color/editbox"
+        android:icon="@drawable/location"
+        android:state_checked="true"
+        android:title="@string/map" />
+    <item
+        android:id="@+id/contact_us"
+        android:drawable="@color/editbox"
+        android:icon="@drawable/baseline_contactless_24"
+        android:state_checked="true"
+        android:title="@string/contact_us" />
+    <item
+        android:id="@+id/share"
+        android:drawable="@color/editbox"
+        android:icon="@drawable/baseline_share_24"
+        android:state_checked="true"
+        android:title="@string/refer" />
+</menu>
+
