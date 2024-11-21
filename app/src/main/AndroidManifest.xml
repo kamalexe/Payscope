@@ -36,6 +36,9 @@
         android:theme="@style/Theme.Payscope"
         tools:targetApi="31">
         <activity
+            android:name=".Activity.MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".Activity.DrawerActivity"
             android:exported="false" />
         <activity
